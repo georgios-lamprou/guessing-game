@@ -6,7 +6,7 @@ function guessinggame {
 
 	read guess
 
-	number_of_files=$(find -maxdepth 1 -type f | wc -l)	
+	number_of_files=$(find . -maxdepth 1 -type f | wc -l)	
 	
 	integer_condition='^[0-9]+$'
 	
